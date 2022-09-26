@@ -8,7 +8,8 @@ public class Packet implements Serializable {
     String source;
     String destination;
     String fileName;
-
+ 
+//Packet function to create packet
     Packet(int packetID, Boolean available, String source, String destination, String fileName, Boolean needFile) {
         this.packetID = packetID;
         this.available = available;
