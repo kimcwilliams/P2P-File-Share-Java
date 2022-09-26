@@ -5,12 +5,14 @@ public class Ping extends Thread {
     String fileName;
     String source;
     String destination;
+    String ip
 
     Ping(String fileName, String destination, String source) {
         super();
         this.fileName = fileName;
         this.destination = destination;
         this.source = source;
+        this.ip = ip;
     }
 
     public void createConnection() throws IOException, ClassNotFoundException {
