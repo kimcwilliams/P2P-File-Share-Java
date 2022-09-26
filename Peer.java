@@ -7,5 +7,6 @@ public class Peer {
         Menu menu = new Menu();
         menu.start();
         menu.join();
+        options.join();
     }
 }
