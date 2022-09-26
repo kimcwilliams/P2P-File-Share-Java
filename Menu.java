@@ -22,6 +22,10 @@ public class Menu extends Thread {
                     ping_thread.start();
                     ping_thread.join();
                 }
+                while(true)
+                {
+                    System.out.println("sending file!");
+                }
                 else if(choice == 0)
                 {
                     System.exit(0);
