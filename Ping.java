@@ -14,7 +14,6 @@ public class Ping extends Thread {
         this.source = source;
         this.ip = ip;
     }
-new secret(kriya{you_got_commited})
 
     public void createConnection() throws IOException, ClassNotFoundException {
 
